@@ -337,7 +337,7 @@ app.post("/generate", function (req, res) {
     })
 });
 app.get("/generatedfile", function (req, res) {
-    res.sendFile(__dirname + "\\" + user.generatedfile);
+    res.sendFile(__dirname + "/" + user.generatedfile);
 })
 app.get("/logout", function (req, res) {
     user = {
