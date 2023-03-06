@@ -1,0 +1,120 @@
+{
+  cos1: {
+    exams: [ 'IAE-Test', 'Quize', 'Assignment' ],
+    marks: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object]
+    ],
+    div: 3,
+    noofstabtar: 41,
+    perofatt: '68.33',
+    attlevel: 2,
+    coatt: '2.80',
+    poattyorn: 'Y'
+  },
+  cos2: {
+    exams: [ 'IAE-Test' ],
+    marks: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object]
+    ],
+    div: 2,
+    noofstabtar: 42,
+    perofatt: '70.00',
+    attlevel: 2,
+    coatt: '2.80',
+    poattyorn: 'Y'
+  },
+  cos3: {
+    exams: [ 'IAE-Test' ],
+    marks: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object]
+    ],
+    div: 2,
+    noofstabtar: 37,
+    perofatt: '61.67',
+    attlevel: 2,
+    coatt: '2.80',
+    poattyorn: 'Y'
+  },
+  cos4: {
+    exams: [ 'IAE-Test' ],
+    marks: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object]
+    ],
+    div: 1,
+    noofstabtar: 32,
+    perofatt: '53.33',
+    attlevel: 1,
+    coatt: '2.60',
+    poattyorn: 'Y'
+  },
+  cos5: {
+    exams: [ 'IAE-Test' ],
+    marks: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object]
+    ],
+    div: 1,
+    noofstabtar: 34,
+    perofatt: '56.67',
+    attlevel: 1,
+    coatt: '2.60',
+    poattyorn: 'Y'
+  }
+}
+  
+
+marks={reg:0,mark:0}
