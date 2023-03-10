@@ -231,7 +231,7 @@ app.get("/generatefile", function (req, res) {
 app.post("/generate", function (req, res) {
     // console.log(req.body);
     var file = req.files.file;
-    file.mv("./public/" + req.body.depart + "#" + req.body.batch + "#" + req.body.semester + "#" + req.body.subject + "#" + "Targetfile.xlsx", function (err) {
+//    file.mv("./public/" + req.body.depart + "#" + req.body.batch + "#" + req.body.semester + "#" + req.body.subject + "#" + "Targetfile.xlsx", function (err) {
         model_batch.find({}, function (err, data) {
             var exams1 = [];
             var files = [];
@@ -293,8 +293,8 @@ app.post("/generate", function (req, res) {
                             nocos = Number(data1[0].Subject[i].split("#")[4]);
                         }
                     }
-                    var target = calculatetarget(filename)
-                    user.generatedfile = excelab.generatefile(fileavail, req.body, user, target);
+                  //  var target = calculatetarget(filename)
+                    user.generatedfile = excelab.generatefile(fileavail, req.body, user, req.body.target);
                     model_subject.find({ id: 1 }, function (err, data) {
                         res.render("generatefile", { username: user.username, subjects: data[0].Subject, filemiss, genst: 1 });
                     });
@@ -322,7 +322,7 @@ app.post("/generate", function (req, res) {
                         model_conames.find({}, function (err, dataconames) {
                             for (no = 0; no < dataconames[0].conames.length; no++) {
                                 if (dataconames[0].conames[no].search(req.body.depart + "#" + req.body.batch + "#" + req.body.semester + "#" + req.body.subject + "#") != -1) {
-                                    user.generatedfile = excel.generatefile(nocos, exams, examtotalmark, fileavail, req.body, user,req.body.target, dataconames[0].conames[no]);
+                                    user.generatedfile = excel.generatefile(nocos, exams, examtotalmark, fileavail, user, dataconames[0].conames[no],req.body.target);
                                     model_subject.find({ id: 1 }, function (err, data) {
                                         res.render("generatefile", { username: user.username, subjects: data[0].Subject, filemiss, genst: 1 });
                                     });
@@ -332,7 +332,7 @@ app.post("/generate", function (req, res) {
                     })
                 })
             }
-        })
+     //   })
 });
 app.get("/generatedfile", function (req, res) {
     res.sendFile(__dirname + "/" + user.generatedfile);
